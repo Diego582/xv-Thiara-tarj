@@ -22,35 +22,5 @@ export default function NavBar() {
     navigate("/");
   };
 
-  return (
-    <>
-      <AppBar
-        position="static"
-        sx={{
-          backgroundColor: "#010101",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          alignItems: "center",
-          p: 2,
-          flexWrap: "wrap",
-        }}
-      >
-        <Box>
-          <Typography variant="h4" sx={{ color: "white" }}>
-            Torneo Regional
-          </Typography>
-        </Box>
-        <Box sx={{ display: { xs: "block", md: "none" } }}>
-          <IconButton sx={{ color: "white" }}>
-            <MenuRoundedIcon />
-          </IconButton>
-        </Box>
-        <Box
-          sx={{ display: { xs: "none", md: "flex", flexWrap: "wrap" } }}
-        ></Box>
-        <Box sx={{ display: { xs: "none", sm: "flex" } }}></Box>
-      </AppBar>
-    </>
-  );
+  return <></>;
 }
